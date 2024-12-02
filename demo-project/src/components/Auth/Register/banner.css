@@ -1,0 +1,25 @@
+#carousel-example-autoplaying .carousel-item {
+  position: relative;
+}
+
+#carousel-example-autoplaying .carousel-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 50%);
+  z-index: 0;
+}
+
+#carousel-example-autoplaying .carousel-item img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 0;
+}
+
+#carousel-example-autoplaying button {
+  opacity: 0;
+}

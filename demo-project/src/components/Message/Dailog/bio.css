@@ -1,0 +1,19 @@
+.profilebio-mad .modal-dialog {
+    max-width: 400px;
+    margin: 1.75rem auto;
+  }
+  
+.profilebio-mad input{
+    outline: none;
+    border-bottom: 2px solid gray;
+}
+
+  .profilebio-mad textarea{
+    border:1.5px solid rgb(78 77 77);
+    outline: none;
+  }
+  
+  .profilebio-mad .outline-none {
+    outline: none;
+  }
+  

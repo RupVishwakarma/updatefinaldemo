@@ -1,0 +1,64 @@
+#network {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    width: 400px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #network .modal-content {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    overflow: hidden;
+  }
+  
+  #network .modal-header {
+    border-bottom:none;
+  }
+  
+  #network .modal-body {
+    padding: 15px;
+  }
+  
+  #network .input-search {
+    position: relative;
+    margin-top: 10px;
+    background-color: gainsboro;
+    padding: 5px;
+  }
+  
+  #network .input-search input {
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    color: gray;
+    background-color: transparent;
+    font-size: 0.9rem;
+  }
+
+  #network .input-search input::placeholder{
+    color: gray;
+    font-size: small;
+    font-weight: 500;
+  }
+  
+  #add-modal{
+    background-color: black;
+    opacity: 0.8;
+  }
+
+  #add-modal .modal-content{
+    background: #fff;
+    opacity: 1;
+  }
+
+  #network .custom-dropdown{
+    width: 100px;
+    margin-top: -5px;
+  }

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdemo_project=self.webpackChunkdemo_project||[]).push([[2714],{2714:(e,s,c)=>{c.r(s),c.d(s,{default:()=>r});c(5043);var d=c(579);const r=()=>(0,d.jsx)("div",{children:"Spread_Post"})}}]);
+//# sourceMappingURL=2714.f559f50e.chunk.js.map

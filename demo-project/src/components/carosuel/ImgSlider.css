@@ -1,0 +1,9 @@
+
+ #carousel-example-autoplaying .carousel-item img {
+width: 1240px;
+height: 100vh;
+ }
+
+ #carousel-example-autoplaying button{
+ opacity: 0;
+ }
